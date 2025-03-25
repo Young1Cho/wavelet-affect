@@ -4,11 +4,17 @@ This repository contains code for the paper:
 *"Interpreting Feature Importance in Wavelet-Based Deep Learning for Multi-Time Scale Affect Forecasting"*
 
 ## 📂 Repository Structure  
-- `src/` - Main Python scripts  
-- `notebooks/` - Jupyter Notebooks  
-- `data/` - Sample dataset (full dataset available separately)  
-- `results/` - Outputs and figures
-
+```bash
+📂 wavelet-affect/
+│── 📂 empirical/        # Empirical example
+│   │── 📂 src/          # Python scripts
+│   │── 📂 notebooks/    # Jupyter Notebooks
+│   │── 📂 data/         # Sample dataset (full dataset available separately)
+│
+│── 📂 simulation/       # Simulation example 
+│   │── 📂 src/          # Python scripts
+│   │── 📂 notebooks/    # Jupyter Notebooks
+```
 
 ## 🚀 Getting Started  
 ### 1️⃣ Clone the Repository

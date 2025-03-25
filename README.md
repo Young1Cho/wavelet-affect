@@ -45,12 +45,13 @@ pip install -r requirements.txt
 - **Full dataset** (Access required): [Penn State SharePoint](https://pennstateoffice365.sharepoint.com/:f:/s/EPiC2/EmBDPx0ir5xNmdOsToX1iYgBWj0wTgG-9rfQeiUO5Xvsyg?e=DOec6s)
 - **Sample dataset** (Public; already available in the repository)
 
-After downloading the full dataset, place it in the `data/` folder:
+After downloading the full dataset, place it in the `empirical/data/` folder:
 ```bash
 📂 wavelet-affect/
-│── 📂 data/
-│   │── AllSlide50msec.csv  # full_dataset
-│   │── sample_data.csv     # (Already included in the repository)
+│── 📂 empirical/        # Empirical example
+│   │── 📂 data/         # Sample dataset (full dataset available separately)
+│   │   │── AllSlide50msec.csv  # full_dataset
+│   │   │── sample_data.csv     # (Already included in the repository)
 ```
 
 ### 5️⃣ Run the Code

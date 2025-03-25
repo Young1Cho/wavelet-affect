@@ -64,15 +64,8 @@ python src/main.py
 jupyter notebook
 ```
 
-### 6️⃣ Reproducing Results
-To run the model training and evaluation:
-```sh
-python src/train.py --config configs/config.yaml
-python src/evaluate.py --checkpoint models/model.pth
-```
-(Modify paths as needed)
-
-### 7️⃣ Citing This Work
+##
+### Citing This Work
 If this code is used in research, please cite:
 ```bibtex
 @inproceedings{chow2025interpreting,

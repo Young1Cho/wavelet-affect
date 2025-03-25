@@ -1,5 +1,5 @@
 # Ignore full dataset
-data/AllSlide50msec.csv
+empirical/data/AllSlide50msec.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -7,13 +7,13 @@ This repository contains code for the paper:
 ```bash
 📂 wavelet-affect/
 │── 📂 empirical/        # Empirical example
-│   │── 📂 src/          # Python scripts
-│   │── 📂 notebooks/    # Jupyter Notebooks
 │   │── 📂 data/         # Sample dataset (full dataset available separately)
+│   │── Empirical_ADID_ScatteringDemo.ipynb
 │
 │── 📂 simulation/       # Simulation example 
-│   │── 📂 src/          # Python scripts
-│   │── 📂 notebooks/    # Jupyter Notebooks
+│   │── Simul_Illus1-2GeneratePlotExamples.ipynb
+│   │── Simul_Illus3TimeVaryingFreqDemo.ipynb
+│   │── myTVFunctions.py
 ```
 
 ## 🚀 Getting Started  
@@ -23,25 +23,12 @@ First, download the repository to your local machine:
 git clone https://github.com/Young1Cho/wavelet-affect.git
 cd wavelet-affect
 ```
-### 2️⃣ Set Up a Virtual Environment (Recommended)
-To avoid dependency conflicts, it's a good idea to use a virtual environment:
-
-🔹 For Python venv (built-in)
-```sh
-python -m venv venv
-source venv/bin/activate  # On Windows, use: venv\Scripts\activate
-```
-🔹 For Conda Users
-```sh
-conda create --name myenv python=3.9
-conda activate myenv
-```
-### 3️⃣ Install Dependencies  
+### 2️⃣ Install Dependencies  
 ```sh
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Download Dataset
+### 3️⃣ Download Dataset
 - **Full dataset** (Access required): [Penn State SharePoint](https://pennstateoffice365.sharepoint.com/:f:/s/EPiC2/EmBDPx0ir5xNmdOsToX1iYgBWj0wTgG-9rfQeiUO5Xvsyg?e=DOec6s)
 - **Sample dataset** (Public; already available in the repository)
 
@@ -54,7 +41,7 @@ After downloading the full dataset, place it in the `empirical/data/` folder:
 │   │   │── sample_data.csv     # (Already included in the repository)
 ```
 
-### 5️⃣ Run the Code
+### 4️⃣ Run the Code (Work in progress)
 🔹 Run Main Script
 ```sh
 python src/main.py
@@ -64,7 +51,7 @@ python src/main.py
 jupyter notebook
 ```
 
-##
+<!-- ##
 ### Citing This Work
 If this code is used in research, please cite:
 ```bibtex
@@ -75,5 +62,4 @@ If this code is used in research, please cite:
   year      = {2025},
   address   = {Minneapolis, United States}
 }
-```
-```
+``` -->

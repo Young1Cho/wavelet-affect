@@ -42,12 +42,8 @@ After downloading the full dataset, place it in the `empirical/data/` folder:
 ```
 
 ### 4️⃣ Run the Code (Work in progress)
-🔹 Run Main Script
 ```sh
-python src/main.py
-```
-🔹 Run Jupyter Notebook (If Using Notebooks)
-```sh
+python main.py
 jupyter notebook
 ```
 

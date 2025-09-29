@@ -41,21 +41,18 @@ After downloading the full dataset, place it in the `empirical/data/` folder:
 │   │   │── sample_data.csv     # (Already included in the repository)
 ```
 
-### 4️⃣ Run the Code (Work in progress)
-```sh
-python main.py
-jupyter notebook
-```
+### 4️⃣ Run the Code in Jupyter Notebook
 
-<!-- ##
-### Citing This Work
-If this code is used in research, please cite:
+
+### Citation:
 ```bibtex
-@inproceedings{chow2025interpreting,
-  author    = {Sy-Miin Chow and Young Won Cho and Xiaoyue Xiong and Yanling Li and Yuqi Shen and Jyotirmoy Das and Linying Ji and Soundar Kumara},
-  title     = {Interpreting Feature Importance in Wavelet-Based Deep Learning for Multi-Time Scale Affect Forecasting},
-  booktitle = {Proceedings of the 90th Annual International Meeting of the Psychometric Society},
-  year      = {2025},
-  address   = {Minneapolis, United States}
+@inproceedings{
+chow2025waveletbased,
+title={Wavelet-Based Deep Learning for Multi-Time Scale Affect Forecasting},
+author={Sy-Miin Chow and Young Won Cho and Xiaoyue Xiong and Yanling Li and Yuqi Shen and Jyotirmoy Nirupam Das and Linying Ji and Soundar R. Kumara},
+booktitle={Proceedings of the 89th Annual International Meeting of the Psychometric Society, Prague, Czech Republic, 2024.},
+year={2025},
+url={https://openreview.net/forum?id=rXFRvcp8E6},
+doi={https://doi.org/10.64028/xnlk150705}
 }
-``` -->
+```
